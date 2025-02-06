@@ -13,9 +13,9 @@ A Java-based file organizer that categorizes and moves files from one folder to 
 ## Supported File Types
 
 - **Images**: `.jpg`, `.png`, `.gif`
-- **Documents**: `.pdf`, `.docx`, `.txt`
+- **Documents**: `.pdf`, `.docx`, `.pptx`, `.txt`
 - **Videos**: `.mp4`, `.avi`
-- **Others**: Any file types not covered in the categories above are categorized as `others`.
+- **Others**: Any file types not covered in the categories above are categorized based on their `extension`.
 
 ## Requirements
 
