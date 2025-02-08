@@ -11,6 +11,10 @@ public class FileOrganizer {
         CATEGORY_MAP.put("png", "Images");
         CATEGORY_MAP.put("gif", "Images");
         CATEGORY_MAP.put("pdf", "Documents");
+        CATEGORY_MAP.put("pptx", "Documents");
+        CATEGORY_MAP.put("xlsx", "Documents");
+        CATEGORY_MAP.put("xls", "Documents");
+        CATEGORY_MAP.put("csv", "Documents");
         CATEGORY_MAP.put("docx", "Documents");
         CATEGORY_MAP.put("txt", "Documents");
         CATEGORY_MAP.put("mp4", "Videos");
