@@ -2,7 +2,7 @@
 
 A Java-based file organizer that categorizes and moves files from one folder to specific subfolders based on their file types (e.g., Images, Documents, Videos). It also logs the file movements in a log file.
 
-## Features
+## Features 📂
 
 - **File Categorization**: Organizes files into categories such as Images, Documents, and Videos based on file extensions.
 - **Move Confirmation**: Before moving files, it prompts the user for confirmation.
@@ -10,14 +10,14 @@ A Java-based file organizer that categorizes and moves files from one folder to 
 - **Logging**: Logs every file move in a `log.txt` file.
 - **Flexible Path Input**: Allows the user to specify any folder or defaults to the current directory.
 
-## Supported File Types
+## Supported File Types 📚
 
 - **Images**: `.jpg`, `.png`, `.gif`
 - **Documents**: `.pdf`, `.docx`, `.pptx`, `.txt`, `xlsx`, `xls`, `csv`
 - **Videos**: `.mp4`, `.avi`
 - **Others**: Any file types not covered in the categories above are categorized based on their `extension`.
 
-## Requirements
+## Requirements 🖥💻
 
 - Java 8 or higher
 
@@ -41,7 +41,7 @@ A Java-based file organizer that categorizes and moves files from one folder to 
    - Confirm whether you want to start organizing the files.
    - For each file, confirm if you want to move it to the corresponding folder based on its type.
 
-## Example
+## Example 📝
 
 ### Organizing Files:
 ```console
@@ -68,11 +68,13 @@ Moved: document.pdf -> Documents
 Moved: video.mp4 -> Videos
 ```
 
-## Notes
+## Notes 🧾
 
 - The program will create subfolders for each category (e.g., Images, Documents, Videos) if they do not exist.
 - If a file already exists in the target folder, the program will rename the file by appending a number to the name (e.g., file_1.jpg).
 
-## License
+## Contribution 🚀
+
+## License ⚖️
 
 This project is licensed under the MIT License. Check the [LICENSE](./LICENSE) file for more details.
