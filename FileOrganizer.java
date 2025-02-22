@@ -1,3 +1,4 @@
+// Main Java Program File
 import java.io.*;
 import java.nio.file.*;
 import java.util.*;
@@ -6,6 +7,7 @@ public class FileOrganizer {
     private static final Map<String, String> CATEGORY_MAP = new HashMap<>();
     private static final String LOG_FILE = "log.txt";
 
+    // Mapping extensions to Folder Types
     static {
         CATEGORY_MAP.put("jpg", "Images");
         CATEGORY_MAP.put("png", "Images");
@@ -21,6 +23,7 @@ public class FileOrganizer {
         CATEGORY_MAP.put("avi", "Videos");
     }
 
+    // main function
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the folder path to organize or type 'current' to use the current directory:");
