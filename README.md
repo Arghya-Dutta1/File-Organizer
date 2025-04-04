@@ -68,6 +68,10 @@ Moved: document.pdf -> Documents
 Moved: video.mp4 -> Videos
 ```
 
+## Screenshot
+![image](https://github.com/user-attachments/assets/164627bd-f469-4bab-a12c-8f76e9f6c209)
+
+
 ## Notes 🧾
 
 - The program will create subfolders for each category (e.g., Images, Documents, Videos) if they do not exist.
